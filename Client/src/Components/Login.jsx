@@ -41,7 +41,7 @@ const Login = () => {
     }
 
     axios
-      .post("http://localhost:3000/auth/login", {
+      .post("https://merntaskbackend-lfay.onrender.com/auth/login", {
         email,
         password,
       })

@@ -64,7 +64,7 @@ const Profile = () => {
 
     axios
       .post(
-        "http://localhost:3000/auth/profile",
+        "https://merntaskbackend-lfay.onrender.com/auth/profile",
         {
           age,
           gender,
